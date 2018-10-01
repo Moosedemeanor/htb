@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Mon Oct  1 11:58:56 2018 as: nmap -sS -sV -A -oA access 10.10.10.98
+Host: 10.10.10.98 ()	Status: Up
+Host: 10.10.10.98 ()	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 23/open/tcp//telnet?///, 80/open/tcp//http//Microsoft IIS httpd 7.5/	Ignored State: filtered (997)	Seq Index: 252	IP ID Seq: Busy server or unknown class
+# Nmap done at Mon Oct  1 12:02:36 2018 -- 1 IP address (1 host up) scanned in 219.85 seconds

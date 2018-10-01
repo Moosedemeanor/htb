@@ -1,0 +1,45 @@
+C:\Users\security>NET LOCALGROUP
+
+Aliases for \\ACCESS
+
+-------------------------------------------------------------------------------
+*Administrators
+*Backup Operators
+*Certificate Service DCOM Access
+*Cryptographic Operators
+*Distributed COM Users
+*Event Log Readers
+*Guests
+*IIS_IUSRS
+*Network Configuration Operators
+*Performance Log Users
+*Performance Monitor Users
+*Power Users
+*Print Operators
+*Remote Desktop Users
+*Replicator
+*TelnetClients
+*Users
+The command completed successfully.
+
+
+
+
+
+
+
+
+
+C:\Users\security>NET LOCALGROUP TelnetClients
+Alias name     TelnetClients
+Comment        
+
+Members
+
+-------------------------------------------------------------------------------
+security
+The command completed successfully.
+
+
+C:\Users\security>
+

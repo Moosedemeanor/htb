@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Mon Oct  1 15:34:11 2018 as: nmap -sS -sV -A -p 4370 -oA ZKAccess 10.10.10.98
+Host: 10.10.10.98 ()	Status: Up
+Host: 10.10.10.98 ()	Ports: 4370/filtered/tcp//elpro_tunnel///
+# Nmap done at Mon Oct  1 15:34:16 2018 -- 1 IP address (1 host up) scanned in 5.64 seconds

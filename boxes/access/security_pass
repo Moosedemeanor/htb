@@ -1,0 +1,13 @@
+10.10.10.98
+telnet access
+
+user: security
+pass: 4Cc3ssC0ntr0ller
+
+htb_own_user: ff1f3b48913b213a31ff6756d2553d38
+
+user: engineer
+pass: access4u@security
+
+ZKAccess Security Software
+Software runs on port 4370

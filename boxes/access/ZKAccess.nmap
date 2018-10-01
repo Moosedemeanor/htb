@@ -1,0 +1,16 @@
+# Nmap 7.70 scan initiated Mon Oct  1 15:34:11 2018 as: nmap -sS -sV -A -p 4370 -oA ZKAccess 10.10.10.98
+Nmap scan report for 10.10.10.98
+Host is up (0.098s latency).
+
+PORT     STATE    SERVICE      VERSION
+4370/tcp filtered elpro_tunnel
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   100.04 ms 10.10.12.1
+2   100.15 ms 10.10.10.98
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct  1 15:34:16 2018 -- 1 IP address (1 host up) scanned in 5.64 seconds

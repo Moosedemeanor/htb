@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Mon Oct  1 15:34:11 2018 as: nmap -sS -sV -A -p 4370 -oA ZKAccess 10.10.10.98 -->
+<nmaprun scanner="nmap" args="nmap -sS -sV -A -p 4370 -oA ZKAccess 10.10.10.98" start="1538422451" startstr="Mon Oct  1 15:34:11 2018" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="4370"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1538422451" endtime="1538422456"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.98" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="4370"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="elpro_tunnel" method="table" conf="3"/></port>
+</ports>
+<os></os>
+<distance value="2"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.12.1" rtt="100.04"/>
+<hop ttl="2" ipaddr="10.10.10.98" rtt="100.15"/>
+</trace>
+<times srtt="97838" rttvar="5699" to="120634"/>
+</host>
+<runstats><finished time="1538422456" timestr="Mon Oct  1 15:34:16 2018" elapsed="5.64" summary="Nmap done at Mon Oct  1 15:34:16 2018; 1 IP address (1 host up) scanned in 5.64 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
